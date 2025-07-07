@@ -11,9 +11,5 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
     http.HandleFunc("/", helloHandler)
-    err := http.ListenAndServe(":8080", nil)
-    if err != nil {
-        // log the error and exit
-        fmt.Println("Server failed:", err)
-    }
+    http.ListenAndServe(":8080", nil)
 }

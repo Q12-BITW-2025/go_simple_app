@@ -39,7 +39,3 @@ This command maps port 8080 of the container to port 8080 on your host machine.
 ## Accessing the Application
 
 Once the container is running, you can access the application by navigating to `http://localhost:8080` in your web browser. You should see the message "Hello, World!" displayed on the page.
-
-
-git config --global user.name "Amit Jain"
-git config --global user.email "amitjain.email@gmail.com"
